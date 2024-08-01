@@ -1,0 +1,239 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: white;
+    width: 100%;
+    margin: 0;
+}
+.logo{
+    width: 50px;
+    height: auto;
+    border-radius: 20px;
+}
+
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{
+    background-color: #bebebe;
+    width: 100%;
+    display: inline-flex;
+    height: 50px;
+    border: solid #bebebe;
+    border-radius: 0px 0px 20px 20px;
+}
+a{
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #000000;
+
+}
+
+
+nav ul{
+    display: inline-flex;
+    justify-content: right;
+    margin: 0px 1rem 0px 0px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+nav ul li{
+    display: inline-flex;
+    justify-content: right;
+}
+
+nav ul li a{
+    color: #ffffff;
+    /*border-radius: 20px;
+    border: 1px solid white*/;
+    padding: 3px 5px 5px 5px;
+    font-size: 15px;
+    margin: 10px 0px 0px 0px;
+}
+
+nav ul li:hover{
+    background-color: #1cb9c8;
+    transition: .5s;
+}
+
+.active{
+    background-color: #1cb9c8;
+}
+#check{
+    display: none;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #1cb9c8;
+    float: left;
+    line-height: 50px;
+    cursor: pointer;
+    display: none;
+
+}
+i{
+    padding: 0 5px;
+}
+footer{
+    text-align: center;
+    background-color: #804b1b;
+    border-radius: 20px;
+    padding: 6px;
+    margin: 10px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: beige;
+    text-transform: capitalize solid;
+}
+footer a{
+    text-decoration: solid underline;
+    text-shadow: #000000 0 1px 4px;
+    color: rgb(121, 132, 233);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card1{
+    position: sticky;
+    border-radius: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.233);
+    background-image: url(images/escalera-469x563.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: stretch;
+    top: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 100;
+}
+.card1 button{
+    margin-left: 5%;
+    background-color: #1cb9c8;
+    width: 100%;
+    border: 2px #7e7e7e solid;
+    border-radius: 20px;
+    font-size: 17px;
+    padding: 7px;
+    box-shadow: #000000 2px 2px 4px;
+    
+}
+.card1 .bot{
+    display: inline-flex;
+}
+.card2{
+    position: sticky;
+    border-radius: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: stretch;
+    top: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 200;
+}
+.card2 img{
+    /*margin-top: 50%;*/
+    opacity: .7;
+}
+.text{
+    margin: 3% 10% 3% 9%;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: #ffffff 2px 2px 3px;
+}
+.card3{
+    position: sticky;
+    border-radius: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1cb9c8;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: stretch;
+    top: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 300;
+}
+@media (max-width:600px){
+    .checkbtn{
+        display: block;
+        border-radius: 10px;
+        justify-content: left;
+        float: left;    
+        background-color: white;
+        margin-right: 65%;
+        opacity: 1;
+        
+    }
+    nav{
+        position: sticky;
+        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+        z-index: 1000;
+    }
+    nav ul{
+        opacity: 1;
+        border-radius: 20px;
+        left: -600px;
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(104, 104, 104, 0.932);
+        top: 55px;
+        text-align: center;
+        transition: all .5s;
+        justify-items: stretch;
+        justify-content: center;
+    }
+    nav a{
+        justify-content: right;
+        float: right;
+    }
+
+    nav ul li{
+        display: flex;
+        margin: 0px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: space-around;
+        align-items: stretch;
+        transition: all .5s;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, .active{
+        background: none;
+        color: #1cb9c8;
+    }
+
+    #check:checked ~ ul{
+        left:0px;
+    }
+    .navbar{
+        z-index: 100000;
+    }
+    .intro{
+        margin-top: 50px;
+    }
+
+}

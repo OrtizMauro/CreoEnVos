@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNDACION CREO EN VOS</title>
+    <meta name="author" content="Byte">
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="https://kit.fontawesome.com/64d523dbaa.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="logo.jpg">
+</head>
+<header>
+    <div class="cartel"></div>
+    <div class="navbar">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars responsive"></i>
+            </label>
+            <a href="index.html">
+                <img class="logo" src="logo.jpg">
+            </a>
+                <ul>
+                    <li> 
+                        <a href="valores.html">Valores</a>
+                    </li>
+                    <li> 
+                        <a href="filosofia.html">Filosofía</a>
+                    </li>
+                    <li> 
+                        <a href="inspiracion.html">Inspiracion</a>
+                    </li>
+                    <li> 
+                        <a href="areas.html">Areas</a>
+                    </li>
+                    <li> 
+                        <a href="mecanicas.html">Mecánicas</a>
+                    </li>
+                    <li> 
+                        <a href="marca.html">Marca</a>
+                    </li>
+                    <li> 
+                        <a href="unete.html">Únete</a>
+                    </li>
+                </ul>
+                
+            </nav>
+        </div>
+</header>
+<body>
+    <div class="card1">
+        <div class="text">
+            <h1>Una hora de tu vida vale oro</h1>
+            <h3>Somos un grupo de personas convencidas de que todos merecemos una oportunidad de llegar alto, y estamos comprometidos en lograr que así sea. Creemos firmemente en el potencial de las personas y por ello trabajamos para conseguir recursos y generar oportunidades que les permita expandirlo aportando valor a la sociedad. Puedes sumarte a esta visión donando horas, ya sea de tu profesión, de tu oficio o de tu tiempo libre.</h3>
+            <div class="bot">
+                <button><a href="unete.html">Quiero donar horas</a></button>
+                <button><a href="unete.html">Quiero donar materiales</a></button>
+            </div>
+            <h2>Casos para ayudar</h2>
+            <h4>Todos aquellos que conozcan alguna necesidad que pueda ser cubierta con las horas y los materiales de la fundación pueden proponerlas por medio de este formulario. Luego el equipo de Creo En Vos llevará a cabo el análisis y valoración del caso para poner en marcha un proyecto solidario.</h4>
+            <div class="bot">
+                <button><a href="unete.html">Proponer un proyecto solidario </a></button>
+            </div>
+        </div>
+    </div>
+    <div class="card2">
+        <div class="text">
+            <h1>La Fundacion</h1>
+            <h3>
+                "La clave radica en encontrar armonía entre lo que llevamos en el corazón y lo que el mundo necesita. Es cuestión de descubrir lo que amamos y hacerlo para servir a los demás…
+                Somos un grupo de personas comunes que aspiramos a hacer cosas extraordinarias que nos importan y valen la pena…
+                La idea es crear una organización y un legado que podrán servir al mundo mucho después de habernos ido…
+                «Nada iguala la fuerza del corazón de un voluntario» Alec Baldwin en Pearl Harbour"</h3>
+            </div>
+            <img src="styles/images/parallax-creo-600x400.jpg">
+    </div>
+    <div class="card3">
+        <h1>Uníte</h1>
+        <form>
+            <br>
+            <label for="nombre">Nombre y Apellido: </label>   
+            <input type="text" id="" name="" placeholder="Ingrese aquí su nombre" maxlength="50" minlength="2" required>
+            <br>
+            <br>
+            <label for="edad">Edad: </label>   
+            <input type="date" id="edad" name="edad" max="2010-01-01" required>
+            <br>
+            <br>
+            <label for="horas">Horas a donar: </label>   
+            <input type="number" id="horas" name="horas" placeholder="Ingrese las horas a donar:" min="0" required>
+            <br>
+            <br>
+            <label for="correo">Correo electronico:</label>
+            <input type="email" id="correo" name="correo" placeholder="Ingrese aquí su correo" maxlength="40" minlength="5" required>
+            <br>
+            <br>
+            <label for="telefono">Celular/Tel: </label>
+            <input type="text" id="telefono" name="telefono" placeholder="Ingrese aquí su celular o telefono" maxlength="30" minlength="4" required>
+            <br>
+            <br>
+            <label for="materiales">Donar materiales:</label>
+            <select name="materiales" id="materiales">
+                <option value="No">No quiero donar Materiales</option>
+                <option value="Si">Si quiero donar Materiales</option>
+            </select>
+            <br>
+            <label for="mensaje">Mensaje: </label>
+            <textarea name="mensaje" id="mensaje" placeholder="Mensaje" rows="10" cols="30"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <div class="card">Card 4</div>
+</body>
+</html>

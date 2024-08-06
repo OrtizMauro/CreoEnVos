@@ -81,45 +81,110 @@
         <div class="foto"><a href="https://www.youtube.com/"><img src="styles/images/couchsurfing-que-es-viajar-gratis-ventajas-viajerocarpediem.com_-752x440-600x400.jpg" alt=""></a></div>
     </div>
     <div class="card3">
-        <form>
-            <h1>Uníte</h1>
-            <br>
-            <label for="nombre">Nombre y Apellido: </label>   
-            <input type="text" id="" name="" placeholder="Ingrese aquí su nombre" maxlength="50" minlength="2" required>
-            <br>
-            <br>
-            <label for="edad">Edad: </label>   
-            <input type="date" id="edad" name="edad" max="2010-01-01" required>
-            <br>
-            <br>
-            <label for="horas">Horas a donar: </label>   
-            <input type="number" id="horas" name="horas" placeholder="Ingrese las horas a donar:" min="0" required>
-            <br>
-            <br>
-            <label for="correo">Correo electronico:</label>
-            <input type="email" id="correo" name="correo" placeholder="Ingrese aquí su correo" maxlength="40" minlength="5" required>
-            <br>
-            <br>
-            <label for="telefono">Celular/Tel: </label>
-            <input type="text" id="telefono" name="telefono" placeholder="Ingrese aquí su celular o telefono" maxlength="30" minlength="4" required>
-            <br>
-            <br>
-            <label for="materiales">Donar materiales:</label>
-            <select name="materiales" id="materiales">
-                <option value="No">No quiero donar Materiales</option>
-                <option value="Si">Si quiero donar Materiales</option>
-            </select>
-            <br>
-            <br>
-            <label for="mensaje">Mensaje: </label>
-            <br>
-            <br>
-            <textarea name="mensaje" id="mensaje" placeholder="Mensaje" rows="10" cols="40"></textarea>
-            <br>
-            <br>
-            <input type="submit" value="Enviar">
-        </form>
+        <h1>Uníte</h1>
+        <div class="mytabs">
+            <!-- Horas Tab -->
+            <input type="radio" id="horas" name="mytabs" checked>
+            <label for="horas">Donar Horas</label>
+            <div class="container">
+                <form>
+                    <br>
+                    <label for="nombre_horas">Nombre y Apellido: </label>   
+                    <input type="text" id="nombre_horas" name="nombre" placeholder="Ingrese aquí su nombre" maxlength="50" minlength="2" required>
+                    <br>
+                    <br>
+                    <label for="edad_horas">Edad: </label>   
+                    <input type="date" id="edad_horas" name="edad" max="2010-01-01" required>
+                    <br>
+                    <br>
+                    <label for="horas_donar">Cantidad de horas: </label>   
+                    <input type="number" id="horas_donar" name="horas" placeholder="Ingrese las horas a donar:" min="0" required>
+                    <br>
+                    <br>
+                    <label for="correo_horas">Correo electronico:</label>
+                    <input type="email" id="correo_horas" name="correo" placeholder="Ingrese aquí su correo" maxlength="40" minlength="5" required>
+                    <br>
+                    <br>
+                    <label for="telefono_horas">Celular/Tel: </label>
+                    <input type="text" id="telefono_horas" name="telefono" placeholder="Ingrese aquí su celular o telefono" maxlength="30" minlength="4" required>
+                    <br>
+                    <br>
+                    <label for="mensaje_horas">Mensaje: </label>
+                    <br>
+                    <br>
+                    <textarea name="mensaje" id="mensaje_horas" placeholder="Mensaje" rows="10" cols="40"></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+    
+            <!-- Materiales Tab -->
+            <input type="radio" id="materiales" name="mytabs">
+            <label for="materiales">Donar Materiales</label>
+            <div class="container">
+                <form>
+                    <br>
+                    <label for="nombre_materiales">Nombre y Apellido: </label>   
+                    <input type="text" id="nombre_materiales" name="nombre" placeholder="Ingrese aquí su nombre" maxlength="50" minlength="2" required>
+                    <br>
+                    <br>
+                    <label for="edad_materiales">Edad: </label>   
+                    <input type="date" id="edad_materiales" name="edad" max="2010-01-01" required>
+                    <br>
+                    <br>
+                    <label for="correo_materiales">Correo electronico:</label>
+                    <input type="email" id="correo_materiales" name="correo" placeholder="Ingrese aquí su correo" maxlength="40" minlength="5" required>
+                    <br>
+                    <br>
+                    <label for="telefono_materiales">Celular/Tel: </label>
+                    <input type="text" id="telefono_materiales" name="telefono" placeholder="Ingrese aquí su celular o telefono" maxlength="30" minlength="4" required>
+                    <br>
+                    <br>
+                    <label for="mensaje_materiales">Describe el tipo de materiales y la cantidad: </label>
+                    <br>
+                    <br>
+                    <textarea name="mensaje" id="mensaje_materiales" placeholder="Mensaje" rows="10" cols="40"></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+    
+            <!-- Proyecto Tab -->
+            <input type="radio" id="proyecto" name="mytabs">
+            <label for="proyecto">Proyecto</label>
+            <div class="container">
+                <form>
+                    <br>
+                    <label for="nombre_proyecto">Nombre y Apellido: </label>   
+                    <input type="text" id="nombre_proyecto" name="nombre" placeholder="Ingrese aquí su nombre" maxlength="50" minlength="2" required>
+                    <br>
+                    <br>
+                    <label for="edad_proyecto">Edad: </label>   
+                    <input type="date" id="edad_proyecto" name="edad" max="2010-01-01" required>
+                    <br>
+                    <br>
+                    <label for="correo_proyecto">Correo electronico:</label>
+                    <input type="email" id="correo_proyecto" name="correo" placeholder="Ingrese aquí su correo" maxlength="40" minlength="5" required>
+                    <br>
+                    <br>
+                    <label for="telefono_proyecto">Celular/Tel: </label>
+                    <input type="text" id="telefono_proyecto" name="telefono" placeholder="Ingrese aquí su celular o telefono" maxlength="30" minlength="4" required>
+                    <br>
+                    <br>
+                    <label for="mensaje_proyecto">Contanos tu proyecto: </label>
+                    <br>
+                    <br>
+                    <textarea name="mensaje" id="mensaje_proyecto" placeholder="Mensaje" rows="10" cols="40"></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
     </div>
+    
     <div class="card4">
         <div class="etiqueta">
             Sumás +1 Cookie

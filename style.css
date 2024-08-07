@@ -126,6 +126,10 @@ footer a{
 .card1 .bot{
     display: inline-flex;
 }
+#bot:hover{
+    cursor: pointer;
+    transform: scale(1,1);
+}
 .card2{
     position: sticky;
     border-radius: 20px;

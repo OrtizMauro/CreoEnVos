@@ -1,33 +1,3 @@
-Sección 1
-Encabezado Principal
-"Una hora de tu vida vale oro"
-"Somos un grupo de personas convencidas de que todos merecemos una oportunidad de llegar alto, y estamos comprometidos en lograr que así sea. Creemos firmemente en el potencial de las personas y por ello trabajamos para conseguir recursos y generar oportunidades que les permita expandirlo aportando valor a la sociedad. Puedes sumarte a esta visión donando horas, ya sea de tu profesión, de tu oficio o de tu tiempo libre."
-Botón
-"Quiero donar horas o materiales para proyectos solidarios"
-
-Sección 2
-Encabezado Principal
-"Casos para ayudar"
-
-Texto
-"Todos aquellos que conozcan alguna necesidad que pueda ser cubierta con las horas y los materiales de la fundación pueden proponerlas por medio de este formulario. Luego el equipo de Creo En Vos llevará a cabo el análisis y valoración del caso para poner en marcha un proyecto solidario."
-
-Botón
-"Quiero proponer un proyecto solidario para que reciba ayuda"
-
-Sección 3
-Misión
-"El proyecto se basa en la ayuda integral al ser humano sobre la base filosófica de creer en el potencial del mismo y sus posibilidades de mejora en todas las áreas de su vida."
-
-Visión
-"Transformar la sociedad en un lugar mejor para vivir, donde todos colaboren en el bien común de sus semejantes. Dar de forma desinteresada parte de su tiempo para compartir la ayuda a los demás aportando horas de su expertise profesional que puedan beneficiar a otros. También se podrán aportar bienes materiales útiles para estos fines."
-
-Valores
-"Solidaridad, entendida como un aporte desinteresado hacia el otro que necesita.
-Amor, que implica creer en la pureza y potencialidad del ayudado.
-Honestidad, de corazón, ya que se da sin esperar nada a cambio.
-Pasión, darse por un objetivo más grande que uno mismo…"
-
 Sección 4
 Testimonios
 
@@ -36,12 +6,7 @@ Testimonios
 “En el análisis final, no se trata de lo que haces por los niños, sino de lo que les enseñas a hacer por sí mismos, lo que les convertirá en seres humanos de éxito.” — Ann Landers
 “Es más noble darse completamente a una persona, que trabajar diligentemente para la salvación de las masas.” — Dag Hammarskjold
 “Tratad a un hombre como es y siempre será igual; tratadle como puede ser, y se convertirá en la persona que puede y debe llegar a ser.” — Goethe
-Sección 5
-La Fundación
-"La clave radica en encontrar armonía entre lo que llevamos en el corazón y lo que el mundo necesita. Es cuestión de descubrir lo que amamos y hacerlo para servir a los demás…
-Somos un grupo de personas comunes que aspiramos a hacer cosas extraordinarias que nos importan y valen la pena…
-La idea es crear una organización y un legado que podrán servir al mundo mucho después de habernos ido…
-«Nada iguala la fuerza del corazón de un voluntario» Alec Baldwin en Pearl Harbour"
+
 
 Sección 6
 Mecánica de trabajo

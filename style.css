@@ -5,9 +5,9 @@ body{
     margin: 0;
 }
 .logo{
-    width: 50px;
+    width: 12vw;
     height: auto;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
 *{
@@ -213,7 +213,8 @@ footer a{
     border-radius: 20px;
     width: 100vw;
     height: 100vh;
-    background-color: #1cb9c8;
+    background-color: rgb(148, 148, 148);
+    background-image: url(styles/images/camiseta-682x1000.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -225,6 +226,38 @@ footer a{
     flex-direction: column;
     justify-content: flex-start;
     z-index: 500;    
+}
+.card5{
+    position: sticky;
+    border-radius: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(70, 21, 21);
+    background-image: url(styles/images/pobreza--500x368.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: stretch;
+    top: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 600;    
+}
+.card5 .text{
+    background-color: #ffffff8f;
+    text-shadow: none;
+    margin: 0rem ;
+    width: 95%;
+    justify-content: center;
+    margin-left: 3vw;
+    margin-top: 1rem;
+}
+.card4 .text{
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+    color: #ffffff;
 }
 .mytabs{
     display: flex;

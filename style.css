@@ -14,7 +14,25 @@ body{
     text-decoration: none;
     list-style: none;
 }
-
+.title{
+    background-color: #ffffff73;
+    width: 111%;
+    margin: 0px 0px 0px -1.5rem;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 2.1rem;
+}
+.card1 h2{
+    margin: 3px 0px 4px -1rem;
+    background: #ffffff59;
+    border-radius: 10px;
+    width: 100%;
+}
+h3{
+    background: #ffffff59;
+    border-radius: 10px;
+    width: 100%;
+}
 nav{
     background-color: #bebebe;
     width: 100%;
@@ -28,7 +46,11 @@ a{
     text-shadow: 2px 2px 5px #000000;
 
 }
+.tabla h2{
+    margin: 0.7rem 0px 0.7rem 7rem;
+    font-weight: 700;
 
+}
 
 nav ul{
     display: inline-flex;
@@ -61,6 +83,9 @@ nav ul li:hover{
 .active{
     background-color: #1cb9c8;
 }
+.tiptab{
+    display: none;
+}
 #check{
     display: none;
 }
@@ -73,25 +98,15 @@ nav ul li:hover{
     display: none;
 
 }
+footer{
+    height: 30vh;
+    background-color: #000000;
+    z-index: 10000;
+}
 i{
     padding: 0 5px;
 }
-footer{
-    text-align: center;
-    background-color: #804b1b;
-    border-radius: 20px;
-    padding: 6px;
-    margin: 10px 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: beige;
-    text-transform: capitalize solid;
-}
-footer a{
-    text-decoration: solid underline;
-    text-shadow: #000000 0 1px 4px;
-    color: rgb(121, 132, 233);
-    font-family: 'Courier New', Courier, monospace;
-}
+
 
 .card1{
     position: sticky;
@@ -174,7 +189,7 @@ footer a{
     border-radius: 20px;
     width: 100vw;
     height: 100vh;
-    background-color: #757575;
+    background-color: #ffffff;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -184,10 +199,11 @@ footer a{
     top: 0;
     flex-wrap: wrap;
     z-index: 300;    
+    font-family: 'Times New Roman', Times, serif;
 }
 .foto img{
     width: 100%;
-    height: 25vh;
+    height: 23vh;
     border-radius: 15px;
 }
 .card3{
@@ -233,7 +249,7 @@ footer a{
     width: 100vw;
     height: 100vh;
     background-color: rgb(70, 21, 21);
-    background-image: url(styles/images/pobreza--500x368.jpg);
+    background-image: url(styles/images/children-around-the-world-70B-500x1000.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -246,14 +262,44 @@ footer a{
     justify-content: flex-start;
     z-index: 600;    
 }
+.card6{
+    position: sticky;
+    width: 100vw;
+    border-radius: 20px 20px 0px 0px;
+    height: 15vh;
+    background-color: rgb(32, 32, 32);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: stretch;
+    top: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 600;    
+}
+
+.redes img{
+    padding: 0.7rem;
+    border-radius: 100px;
+    width: 18vw;
+    height: auto;
+
+}
+.card5 h3{
+    background-color: rgba(255, 255, 255, 0) !important;
+}
 .card5 .text{
-    background-color: #ffffff8f;
+    background-color: #ffffff8c;
     text-shadow: none;
     margin: 0rem ;
     width: 95%;
     justify-content: center;
     margin-left: 3vw;
     margin-top: 1rem;
+    border-radius: 10px;
 }
 .card4 .text{
     text-shadow: rgb(0, 0, 0) 2px 2px 2px;
